@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    
+    <style>
+        body, html {
+          height: 100%;
+          padding: 0;
+          margin: 0;
+          background: #fff;
+         }
+
+        * {
+          box-sizing: border-box; }
+
+        html {
+          -webkit-font-smoothing: antialiased;
+          -moz-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          -o-font-smoothing: antialiased;
+          font-smoothing: antialiased;
+        }
+        
+        body {
+            font-size: 16px;
+            font-family: 'Times New Roman', 'Arial', 'Tahoma', sans-serif;
+        }
+        
+        img {
+          max-width: 100%;
+          height: auto; }
+
+        p, a, span, div, b, strong, mark, small, input, label, textarea, h1, h2, h3, h4, h5, h6 {
+          font-family: 'Roboto', 'Arial', sans-serif; }
+
+        ul {
+          list-style: none;
+          margin: 0 auto; }
+
+        a {
+          text-decoration: none; 
+        }
+        
+        .wrapper {
+            width: 100%;
+            max-width: 730px;
+            margin: 0 auto;
+        }
+        
+        .wrap-header {
+            position: relative;
+            
+        }
+        
+        .header {
+            padding: 60px 0px 0px 0px;
+        }
+        
+        .info-ru {
+            display: inline-block;
+            float: left;
+            width: 36%;
+            border-bottom: 4px solid red;
+            z-index: 1;
+            padding-bottom: 7px;
+        }
+        
+/*
+        .info-ru:after {
+            position: absolute;
+            content: "";
+            background-color: red;
+            color: red;
+            width: 39%;
+            height: 4px;
+            border: none;
+        }
+*/
+        
+        .info-ru span {
+            font-size: 16px;
+            font-family: 'Times New Roman', 'Arial', 'Tahoma', sans-serif;
+            display: block;
+            line-height: 1.4em;
+        }
+        
+        .logo {
+            margin: 0 auto;
+            display: inline-block;
+            width: 30%;
+            z-index: 100;
+            margin-top: -25px;
+        }
+        
+        .logo img {
+            z-index: 100;
+            transform: scale(1.2);
+            position: relative;
+            background: #fff;
+        }
+        
+        .info-en {
+            display: inline-block;
+            float: right;
+            text-align: right;
+            width: 30%;
+            border-bottom: 4px solid red;
+            z-index: 1;
+            padding-bottom: 7px;
+        }
+        
+/*
+        .info-en:after {
+            position: absolute;
+            content: "";
+            background-color: red;
+            color: red;
+            width: 37%;
+            height: 4px;
+            border: none;
+            right: 0px;
+        }
+*/
+        
+        .info-en span {
+            font-size: 16px;
+            font-family: 'Times New Roman', 'Arial', 'Tahoma', sans-serif;
+            display: block;
+            line-height: 1.4em;
+            
+        }
+
+        
+        .email {
+            font-size: 16px;
+            font-family: 'Times New Roman', 'Arial', 'Tahoma', sans-serif;
+            display: block;
+            line-height: 1.9em;
+            font-weight: 700;
+            display: inline-block;
+            float: left;
+        }
+        
+        .i-add {
+            font-size: 16px;
+            font-family: 'Times New Roman', 'Arial', 'Tahoma', sans-serif;
+            display: block;
+            line-height: 1.9em;
+            font-weight: 700;
+            display: inline-block;
+            float: right;
+        }
+        
+        .wrap-header:after {
+           position: absolute;
+            
+        }
+        
+        .main {
+            margin-top: 90px;
+            padding: 0 0px;
+        }
+        
+        .title {
+            text-align: center;
+            font-size: 24px;
+            font-family: 'Times New Roman',sans-serif;
+            display: block;
+        }
+        
+        .text {
+            text-indent: 100px;
+            margin-top: 20px;
+            font-size: 22px;
+            font-family: 'Times New Roman',sans-serif;
+        }
+        
+        .footer-info {
+            margin-top: 80px;
+        }
+        
+        .footer-info:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        
+        .post {
+            display: inline-block;
+            float: left;
+            font-size: 22px;
+            font-family: 'Times New Roman',sans-serif;
+            padding-top: 30px;
+        }
+        
+        .footer-info_right {
+            display: inline-block;
+            width: 55%;
+            float: right;
+        }
+        
+        .signature {
+            display: inline-block;
+        }
+        
+        .fio {
+            display: inline-block;
+            float: right;
+            display: inline-block;
+            font-size: 22px;
+            font-family: 'Times New Roman',sans-serif;
+            padding-top: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+   <header class="header">
+       <div class="wrapper">
+           <div class="wrap-header">
+               <div class="info-ru">
+                   <span>344068, г.Ростов-на-Дону</span>
+                   <span>пр. М. Нагибина, 33А/47</span>
+                   <span>тел.: (863) 292-43-86</span>
+                   <span>тел./факс: (863) 292-43-73</span>
+               </div>
+               <div class="logo">
+                   <img src="img/logo.png" alt="Логотип">
+               </div>
+               <div class="info-en">
+                   <span>33A/47, M. Nagibin av.</span>
+                   <span>Rostov-on-Don, Russia, 344068</span>
+                   <span>tel.: (863) 292-43-86</span>
+                   <span>tel./fax: (863) 292-43-73</span>
+               </div>
+               <div class="e-addr">
+                   <span class="email">E-mail: iubip@iubip.ru</span>
+                   <span class="i-add">www.iubip.ru</span>
+               </div>
+           </div>
+       </div>
+   </header>
+   
+   <main class="main">
+       <div class="wrapper">
+           <div class="title">Справка № ЮУ ВАПО - {{ № }}</div>
+           <div class="text">Настоящим подтверждаем, что {{ ФИО }}, является слушателем ЧОУ ВО ЮУ (ИУБиП) по дополнительной профессиональной программе, программе {{ название программы }} - &laquo;{{ название направления }}&raquo; (в объеме {{ кол-во часов }} академических часов) </div>
+           <div class="footer-info">
+               <div class="post">Проректор</div>
+               <div class="footer-info_right">
+                   <div class="signature">
+                       <img src="img/logo.png" alt="Печать">
+                   </div>
+                   <div class="fio">Протопопова В.А.</div>
+               </div>
+           </div>
+       </div>
+   </main>
+    
+</body>
+</html>
